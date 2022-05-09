@@ -140,7 +140,7 @@
         "plugin:react/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
-        "prettier/@typescript-eslint",
+        "prettier",
         "plugin:prettier/recommended",
         "plugin:react-hooks/recommended",
         "plugin:import/typescript"
@@ -209,12 +209,7 @@
         "react/prop-types": "off",
         "react/no-unescaped-entities": "off",
         "react/jsx-curly-brace-presence": "error",
-        "react/style-prop-object": [
-          "warn",
-          {
-            "allow": ["Mapbox"]
-          }
-        ],
+        "react/style-prop-object": "warn",
         "react/display-name": "off"
       }
     }
